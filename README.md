@@ -1,8 +1,7 @@
 # 2021 Massachusetts Solar Array Detections
-## This repository contains shapefiles of solar arrays detected in 2021 aerial imagery of Massachusetts using my trained CNN deep learning model.
 
 ## Project Background: 
-The purpose of this project was to produce a geospatial database of ground-based solar arrays in Massachusetts to study the impact of their construction on land-use change in the state. To do this, I trained and configured a convolutional neural network (CNN) that classifies pixels as either array or background. I used this model to predict array pixels in high resolution aerial imagery of Massachusetts, from which I was able to produce panel polygons and bounding polygons of array structures. With these I was able to estimate the land use conversion by type in each county of Massachusetts.
+The purpose of this project was to produce a geospatial database of ground-based solar arrays in Massachusetts to study the impact of their construction on land-use change in the state. To do this, I trained and configured a convolutional neural network (CNN) that classifies pixels as either array or background. I used this model to predict array pixels in 2021 aerial imagery of Massachusetts, from which I was able to produce panel polygons and bounding polygons of array structures. With these I was able to estimate the land use conversion by type in each county of Massachusetts.
 
 ## Project Methods:
 Solar arrays were manually labeled in 4-band, 15 cm resolution aerial imagery of Massachusetts taken in 2021 [^1].
