@@ -14,7 +14,7 @@ This repository contains zipped shapefiles with a variety of data products from 
 Array fields (from field >= 2000 shapefile) were clipped to a 2005 land use shapefile and divided by county to provide estimates of regional land use changes caused by array development[^2].
 
 ## Data Disclaimer
-The data in this repository has not been checked for accuracy against imagery, howvever I have filtered it using several spatial rule sets to remove most false positives. Individual inspections of sample arrays have shown a generally high degree of accuracy.
+The data in this repository has not been checked for accuracy against imagery, however I have filtered it using several spatial rule sets to remove most false positives. Individual inspections of sample arrays have shown a generally high degree of accuracy.
 
 
 [^1] The 2021 imagery was registered in NAD83(2011) UTM zone 18 or 19. The boundary between 18 and 19 roughly bisects Worcester county. 
